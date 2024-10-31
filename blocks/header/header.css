@@ -1,0 +1,25 @@
+.header {
+    margin: 0 auto;
+    padding: 28px 48px 0;
+
+    max-width: 1184px;
+
+    display: grid;
+    grid-template-columns: 1fr max-content max-content;
+
+    align-items: end;
+    gap: 0 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 28px 24px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        padding: 5vw 5vw 0;
+        max-height: 13vw;
+    }
+}

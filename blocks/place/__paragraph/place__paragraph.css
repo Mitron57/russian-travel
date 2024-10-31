@@ -1,0 +1,19 @@
+.place__paragraph {
+    margin: 0;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.63;
+}
+
+@media (max-width: 768px) {
+    .place__title {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .places {
+        font-size: 5vw;
+    }
+}

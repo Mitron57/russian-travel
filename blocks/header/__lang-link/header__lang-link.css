@@ -1,0 +1,30 @@
+.header__lang-link {
+    margin: 0 0 6px;
+
+
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.16;
+}
+
+.header__lang-link:first-of-type {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
+}
+
+
+@media screen and (max-width: 425px) {
+    .header__lang-link {
+        margin: 0 0 8px;
+
+        font-size: 18px;
+        line-height: 1.11;
+    }
+}
